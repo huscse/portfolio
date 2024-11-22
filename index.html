@@ -210,18 +210,18 @@
                 </div>
              </div>
              <div class="col">
-                <div class="form-control">
+                <form action="https://formspree.io/f/mzzbvlvn" method="POST">
                     <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Name">
-                        <input type="text" class="input-field" placeholder="Email">
+                        <input type="text" name="name" class="input-field" placeholder="Name" required>
+                        <input type="email" name="email" class="input-field" placeholder="Email" required>
                     </div>
                     <div class="text-area">
-                        <textarea placeholder="Message"></textarea>
+                        <textarea name="message" placeholder="Message" required></textarea>
                     </div>
                     <div class="form-button">
-                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                        <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
                     </div>
-                </div>
+                </form>
              </div>
           </div>
        </section>
@@ -279,9 +279,3 @@
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-
-
-
-
-
-

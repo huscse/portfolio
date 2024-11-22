@@ -24,6 +24,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    resize: none;
 }
 
 /* ----- SMOOTH SCROLL ----- */
@@ -87,13 +88,6 @@ body.dark h1, body.dark .support a {color: #fff;}
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
-
-.project-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
   
   .project-card {
     background: white;
@@ -513,19 +507,7 @@ h3{
     gap: 20px;
     flex-wrap: wrap;
 }
-.project-box{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 30%;
-    height: 250px;
-    background: var(--color-white);
-    border-radius: 20px;
-    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
-    overflow: hidden;
-}
+
 .project-box>i{
     font-size: 50px;
     color: #00B5E7;
@@ -662,12 +644,18 @@ footer{
 }
 .footer_menu_list{
     list-style: none;
+    align-items: center;
 }
 .footer_menu_list a{
     text-decoration: none;
     color: var(--text-color-second);
     font-weight: 500;
     margin-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 20px;
 }
 .footer-social-icons{
     display: flex;
@@ -690,7 +678,6 @@ footer{
         height: 320px;
     }
 }
-
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
     .nav-button{
@@ -765,22 +752,24 @@ footer{
         justify-content: center;
         width: 100%;
     }
-    .project-box{
-        width: 80%;
+    #projects{
+        width: 100%;
     }
     .project-card {
         width: 100%;
+        height: auto;
+        resize: none;
     }
-
+    .middle-footer {
+        width: 100%;
+    }
 }
-
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
-
 @media only screen and (max-width: 540px){
     .featured-name{
         font-size: 40px;
     }
-    .project-box{
+    #projects{
         width: 100%;
     }
     .form-inputs{
@@ -789,11 +778,10 @@ footer{
     .input-field{
         width: 100%;
     }
-    .project-container{
-        justify-content: center;
-        width: 100%;
-    }
-    .project-card {
-        width: 100%;
-    }
 }
+
+
+
+
+
+

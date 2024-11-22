@@ -39,9 +39,9 @@ The website is fully responsive and adapts to various screen sizes:
 ## 👤 Author
 
 Your Name
-- Website: [your-website.com](https://husnain-khaliq-portfolio.vercel.app)
-- GitHub: [@yourusername](https://github.com/boiledpotatoe)
-- LinkedIn: [Your Name](https://linkedin.com/in/husnain-khaliq-5414b9277)
+- Website: [Husnain-Khaliq](https://husnain-khaliq-portfolio.vercel.app)
+- GitHub: [@boiledpotatoe](https://github.com/boiledpotatoe)
+- LinkedIn: [Husnain Khaliq](https://linkedin.com/in/husnain-khaliq-5414b9277)
 
 ## 🙏 Acknowledgments
 
